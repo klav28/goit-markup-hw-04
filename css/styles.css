@@ -341,6 +341,11 @@ ul {
     color: #AFB1B8;
 }
 
+.client-list-link:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
 .client-logo {
     fill: currentColor;
 }
