@@ -198,12 +198,14 @@ ul {
 }
 
 .benefit-list-item {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 100px;
+    /* padding: 25px 100px; */
 }
 
 .benefit-name {
@@ -305,7 +307,8 @@ ul {
     color: #AFB1B8;
 }
 
-.staff-soc-link:hover {
+.staff-soc-link:hover,
+.staff-soc-link:focus {
     background-color: var(--color-accent);
     color: var(--color-light);
 }
@@ -341,7 +344,8 @@ ul {
     color: #AFB1B8;
 }
 
-.client-list-link:hover {
+.client-list-link:hover,
+.client-list-link:focus {
     border-color: var(--color-accent);
     color: var(--color-accent);
 }
